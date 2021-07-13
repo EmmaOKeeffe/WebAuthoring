@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- This head area isn't seen by the users and defines the web pages metadata -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- For the hamburger icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Importing the font from google fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <meta name="Author" content="Emma O'Keeffe">
+        <title>Ruth Bader Ginsberg</title>
+        <!-- Importing my javscript function -->
+        <script src="/js/showNavList.js"></script>
+    </head>
+    <body> 
+        <!-- To make the whole hero image clickable I wrapped it in the a tag -->
+        <a href="index.html" aria-label="Hero Image of Ruth Bader Ginsberg">
+            <div class="heroImg">
+                <!-- Including a link to the original image  -->
+                <p id="heroImgRef">Image from <a href="https://www.kanopy.com/product/rbg-1">Kanopy.com</a></p>
+            </div>
+        </a>
+        <!-- Wrapping the nav links in the nav tag -->
+        <nav class="navBar" id="mainNavBar">
+            <a href="index.html">Home</a>
+            <a href="lifeStory.html">Life</a>
+            <a href="career.html">Career</a>
+            <a href="collars.html">Collars</a>
+            <a href="speech.html">Speech</a>
+            <a href="charities.html">Charities</a>
+            <a href="recentNews.html">Recent News</a>
+            <a href="aboutMe.html">About Me</a>
+            <!-- The is for the hamburger icon that only shows when screen size is less than 720px -->
+            <a href="javascript:void(0);" class="icon" onclick="showNavListOnClick()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <main>
+            <!-- This defines the content part of the webpage -->
+            <section class="sectionContent">
+                <article class="articleContent">
+                    <h1 class="articleHeader">Southwest Washington elementary school to be named for Ruth Bader Ginsburg</h1>
+                    <p class="newsDate">May 12, 2021</p>
+                    <p class="multiLineFacts">
+                        In 2022, elementary students in Hazel Dell will attend a new school named for a legal pioneer who charted a historic path in law and spent a career advocating for women’s rights and gender equity. The Vancouver School Board unanimously voted Tuesday to name its newest elementary school for Ruth Bader Ginsburg, the late lawyer and jurist who served on the U.S. Supreme Court from 1993 until her death in September. Construction on Ruth Bader Ginsburg Elementary, 8614 N.E. 25th Ave., begins this summer with funds from a 2017 vote-approved bond measure. It will serve 410 students when it opens in fall 2022, according to the district.
+                        <br><br>
+                        Ginsburg headlined the list of five submissions by Vancouver Public Schools last month. The other naming option that included a person was American astronaut and physicist Sally K. Ride. Other finalists were Tenney Creek, Sequoia and Unity. More than 250 suggestions came from staff, students, parents and community members before the final five were presented to the school board. Board President Kyle Sproul said the board received mixed feedback on Ginsburg, but challenged those who were opposed by pointing at Ginsburg’s career work. <q>She lived her life committed to the law,</q> Sproul said, <q>and making legal decisions grounded in the law.</q> She later added, <q>For me personally, the timing is right for RBG.</q>
+                        <br><br>
+                        Director Kathy Decker pointed to Ginsburg as a champion for gender equity and one who elevated discourse. She looked toward the district’s equity initiatives for why Ginsburg is the right choice for a school in the district. <q>How do we talk about things we disagree with?</q> Decker said. <q>In the coming year on our work with equity and our work with increasing opportunities, we’re going to have some really difficult discussions, and I think it’s a great opportunity to put that at the forefront. I think we need to elevate those role models when we can.</q>
+                        <br><br>
+                        Sandra Zavala-Ortega, the newest member of the board who was appointed in April, voted in favor of Ginsburg, but spoke to how a school name might be better staying on a <q>neutral ground.</q> <q>I value Ruth Bader Ginsburg a lot,</q> Zavala-Ortega said. <q>But my question is, ‘does the community really represent what Ruth Bader Ginsburg is?'</q>
+                        <br><br>
+                        Of the district’s current 36 schools, others named for a woman are Eleanor Roosevelt, Sarah J. Anderson and Sacajawea elementaries. It’s possible Vancouver is the first school district to name a school for Ginsburg. Naming one for the late justice has picked up momentum in other regions. In April, Spokane Public Schools announced naming one of its new middle schools for Ginsburg is up for consideration. Also last month, renaming a high school for Ginsburg was an option for the school board in Alexandria, Va. Just last week, renaming a high school for Ginsburg was one of 24 naming options at Madison (Wis.) Metropolitan School District. In December, Rutgers University renamed its 17-story residence hall and former law school for Ginsburg, who started her career as a law professor at the university.
+                    </p>
+                    <!-- Referencing where I got the content from -->
+                    <p>Article from <a href="https://www.seattletimes.com/nation-world/southwest-washington-elementary-school-to-be-named-for-ruth-bader-ginsburg/" target="_blank">Seattle Times</a></p>
+                </article>
+            </section>
+        </main>
+        <!-- The footer keeps additional info at the bottom of the page -->
+        <footer> 
+            <p class="footerText">Website by Emma O'Keeffe</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- This head area isn't seen by the users and defines the web pages metadata -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- For the hamburger icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Importing the font from google fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <meta name="Author" content="Emma O'Keeffe">
+        <title>Ruth Bader Ginsberg</title>
+        <!-- Importing my javscript function -->
+        <script src="/js/showNavList.js"></script>
+    </head>
+    <body> 
+        <!-- To make the whole hero image clickable I wrapped it in the a tag -->
+        <a href="index.html" aria-label="Hero Image of Ruth Bader Ginsberg">
+            <div class="heroImg">
+                <!-- Including a link to the original image  -->
+                <p id="heroImgRef">Image from <a href="https://www.kanopy.com/product/rbg-1">Kanopy.com</a></p>
+            </div>
+        </a>
+        <!-- Wrapping the nav links in the nav tag -->
+        <nav class="navBar" class="mainNavBar">
+            <a href="index.html">Home</a>
+            <a href="lifeStory.html">Life</a>
+            <a href="career.html">Career</a>
+            <a href="collars.html">Collars</a>
+            <a href="speech.html">Speech</a>
+            <a href="charities.html">Charities</a>
+            <a href="recentNews.html">Recent News</a>
+            <a href="aboutMe.html">About Me</a>
+            <!-- The is for the hamburger icon that only shows when screen size is less than 720px -->
+            <a href="javascript:void(0);" class="icon" onclick="showNavListOnClick()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <main>
+            <!-- This defines the content part of the webpage -->
+            <section class="sectionContent">
+                <article class="articleContent">
+                    <h1 class="articleHeader">Justice Ruth Bader Ginsburg, Champion Of Gender Equality, Dies At 87</h1>
+                    <p class="newsDate">September 18, 2020</p>
+                    <p class="multiLineFacts">
+                        Justice Ruth Bader Ginsburg, the demure firebrand who in her 80s became a legal, cultural and feminist icon, died Friday. The Supreme Court announced her death, saying the cause was complications from metastatic cancer of the pancreas.
+                        <br><br>
+                        The court, in a statement, said Ginsburg died at her home in Washington, D.C., surrounded by family. She was 87.
+                        <br><br>
+                        <q>Our nation has lost a justice of historic stature,</q> Chief Justice John Roberts said. <q>We at the Supreme Court have lost a cherished colleague. Today we mourn but with confidence that future generations will remember Ruth Bader Ginsburg as we knew her, a tireless and resolute champion of justice.</q>
+                        <br><br>
+                        Architect of the legal fight for women`s rights in the 1970s, Ginsburg subsequently served 27 years on the nation`s highest court, becoming its most prominent member. Her death will inevitably set in motion what promises to be a nasty and tumultuous political battle over who will succeed her, and it thrusts the Supreme Court vacancy into the spotlight of the presidential campaign.
+                        <br><br>
+                        Just days before her death, as her strength waned, Ginsburg dictated this statement to her granddaughter Clara Spera: <q>My most fervent wish is that I will not be replaced until a new president is installed.</q>
+                        <br><br>
+                        She knew what was to come. Ginsburg`s death will have profound consequences for the court and the country. Inside the court, not only is the leader of the liberal wing gone, but with the court about to open a new term, the chief justice no longer holds the controlling vote in closely contested cases.
+                        <br><br>
+                        Though Roberts has a consistently conservative record in most cases, he has split from fellow conservatives in a few important ones this year, casting his vote with liberals, for instance, to protect at least temporarily the so-called DREAMers from deportation by the Trump administration, to uphold a major abortion precedent and to uphold bans on large church gatherings during the coronavirus pandemic. But with Ginsburg gone, there is no clear court majority for those outcomes.
+                    </p>
+                    <!-- Referencing where I got the content from -->
+                    <p>Article from <a href="https://www.npr.org/2020/09/18/100306972/justice-ruth-bader-ginsburg-champion-of-gender-equality-dies-at-87?t=1623072341151" target="_blank">NPR</a></p>
+                </article>
+            </section>
+        </main>
+        <!-- The footer keeps additional info at the bottom of the page -->
+        <footer> 
+            <p class="footerText">Website by Emma O'Keeffe</p>
+        </footer>
+    </body>
+</html>

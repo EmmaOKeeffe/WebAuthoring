@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- This head area isn't seen by the users and defines the web pages metadata -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- For the hamburger icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Importing the font from google fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <meta name="Author" content="Emma O'Keeffe">
+        <title>Ruth Bader Ginsberg</title>
+        <!-- Importing my javscript function -->
+        <script src="/js/showNavList.js"></script>
+    </head>
+    <body> 
+        <!-- To make the whole hero image clickable I wrapped it in the a tag -->
+        <a href="index.html" aria-label="Hero Image of Ruth Bader Ginsberg">
+            <div class="heroImg">
+                <!-- Including a link to the original image  -->
+                <p id="heroImgRef">Image from <a href="https://www.kanopy.com/product/rbg-1">Kanopy.com</a></p>
+            </div>
+        </a>
+        <!-- Wrapping the nav links in the nav tag -->
+        <nav class="navBar" id="mainNavBar">
+            <a href="index.html">Home</a>
+            <a href="lifeStory.html">Life</a>
+            <a href="career.html">Career</a>
+            <a href="collars.html">Collars</a>
+            <a href="speech.html">Speech</a>
+            <a href="charities.html">Charities</a>
+            <a href="recentNews.html">Recent News</a>
+            <a href="aboutMe.html">About Me</a>
+            <!-- The is for the hamburger icon that only shows when screen size is less than 720px -->
+            <a href="javascript:void(0);" class="icon" onclick="showNavListOnClick()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <main>
+            <!-- This defines the content part of the webpage -->
+            <section class="sectionContent">
+                <article class="articleContent">
+                    <h1 class="articleHeader">Ruth Bader Ginsburg: US Supreme Court Justice has cancer again</h1>
+                    <p class="newsDate">July 17, 2020</p>
+                    <p class="multiLineFacts">
+                        US Supreme Court Justice Ruth Bader Ginsburg is receiving chemotherapy for a recurrence of cancer, but says she has no intention of retiring. Ms Ginsburg, who at 87 is the court's oldest member, said a scan in February, followed by a biopsy, revealed lesions on her liver. The information she revealed about her condition indicated she was experiencing a spread of pancreatic cancer, according to oncologists. The liberal's health is closely watched as a Supreme Court vacancy could give Republican President Donald Trump the opportunity to appoint his third justice and move the panel further to the right.
+                        <br><br>
+                        Ms Ginsburg said she began her treatment in May and is currently seeing <q>positive results</q>, adding that she will continue it twice a week. She said: <q>I am tolerating chemotherapy well and am encouraged by the success of my current treatment.</q> <q>I have often said I would remain a member of the court as long as I can do the job full steam. I remain fully able to do that,</q> she continued.
+                        <br><br>
+                        She experienced bouts with lung cancer in 2018 and pancreatic cancer in 2019, for which she also received treatment in 2009 - and suffered with colon cancer 10 years before that. In May, Ms Ginsburg also underwent non-surgical treatment for a gallstone that had caused an infection. The Supreme Court currently has a 5-4 conservative majority including two justices appointed by Mr Trump - Brett Kavanaugh in 2018 and Neil Gorsuch in 2017.
+                        <br><br>
+                        Ms Ginsburg is the second-longest serving among the current justices, behind Clarence Thomas, having been appointed to a lifetime post on the court by President Bill Clinton in 1993. Described as a trail-blazing lawyer, she was the second woman ever named to the court, after Justice Sandra Day O'Connor was appointed 12 years earlier. Ms Ginsburg won gender equality cases at the Supreme Court in the 1970s, and as a justice, she has provided key votes in landmark rulings, securing equal rights for women, expanding gay rights and safeguarding abortion rights.
+                    </p>
+                    <!-- Referencing where I got the content from -->
+                    <p>Article from <a href="https://news.sky.com/story/ruth-bader-ginsburg-supreme-court-justice-has-cancer-again-12030909" target="_blank">Sky News</a></p>
+                </article>
+            </section>
+        </main>
+        <!-- The footer keeps additional info at the bottom of the page -->
+        <footer> 
+            <p class="footerText">Website by Emma O'Keeffe</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- This head area isn't seen by the users and defines the web pages metadata -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- For the hamburger icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Importing the font from google fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <meta name="Author" content="Emma O'Keeffe">
+        <title>Ruth Bader Ginsberg</title>
+        <!-- Importing my javscript function -->
+        <script src="/js/showNavList.js"></script>
+    </head>
+    <body> 
+        <!-- To make the whole hero image clickable I wrapped it in the a tag -->
+        <a href="index.html" aria-label="Hero Image of Ruth Bader Ginsberg">
+            <div class="heroImg">
+                <!-- Including a link to the original image  -->
+                <p id="heroImgRef">Image from <a href="https://www.kanopy.com/product/rbg-1">Kanopy.com</a></p>
+            </div>
+        </a>
+        <!-- Wrapping the nav links in the nav tag -->
+        <nav class="navBar" id="mainNavBar">
+            <a href="index.html">Home</a>
+            <a href="lifeStory.html">Life</a>
+            <a href="career.html">Career</a>
+            <a href="collars.html">Collars</a>
+            <a href="speech.html">Speech</a>
+            <a href="charities.html">Charities</a>
+            <a href="recentNews.html">Recent News</a>
+            <a href="aboutMe.html">About Me</a>
+            <!-- The is for the hamburger icon that only shows when screen size is less than 720px -->
+            <a href="javascript:void(0);" class="icon" onclick="showNavListOnClick()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <main>
+            <!-- This defines the content part of the webpage -->
+            <section class="sectionContent">
+                <article class="articleContent">
+                    <h1 class="articleHeader">Recent News</h1>
+                    <!-- A box for each news item -->
+                    <div class="recentNewsBox">
+                        <h3><a href="newsStory1.html">Southwest Washington elementary school to be named for Ruth Bader Ginsburg</a></h3>
+                        <p>In 2022, elementary students in Hazel Dell will attend a new school named for a legal pioneer who charted a historic path in law and spent a career advocating for women’s rights and gender equity. The Vancouver School Board unanimously voted Tuesday to name its newest elementary school for Ruth Bader Ginsburg, the late lawyer and jurist who served on the U.S. Supreme Court from 1993 until her death in September.[...]</p>
+                    </div>
+                    <div class="recentNewsBox">
+                        <h3><a href="newsStory2.html">Justice Ruth Bader Ginsburg, Champion Of Gender Equality, Dies At 87</a></h3>
+                        <p>                        Justice Ruth Bader Ginsburg, the demure firebrand who in her 80s became a legal, cultural and feminist icon, died Friday. The Supreme Court announced her death, saying the cause was complications from metastatic cancer of the pancreas.[...]</p>
+                    </div>
+                    <div class="recentNewsBox">
+                        <h3><a href="newsStory3.html">Ruth Bader Ginsburg: US Supreme Court Justice has cancer again</a></h3>
+                        <p>US Supreme Court Justice Ruth Bader Ginsburg is receiving chemotherapy for a recurrence of cancer, but says she has no intention of retiring. Ms Ginsburg, who at 87 is the court's oldest member, said a scan in February, followed by a biopsy, revealed lesions on her liver. The information she revealed about her condition indicated she was experiencing a spread of pancreatic cancer, according to oncologists.[...]</p>
+                    </div>
+                    <div class="recentNewsBox">
+                        <h3><a href="newsStory4.html">Ruth Bader Ginsburg says deadline to ratify Equal Rights Amendment has expired: <q>I'd like it to start over</q></a></h3>
+                        <p>Justice Ruth Bader Ginsburg, a long-time supporter of the Equal Rights Amendment, suggested Monday night that the deadline to ratify the measure as a constitutional amendment has expired and that the decades long effort must start anew.[...]</p>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <!-- The footer keeps additional info at the bottom of the page -->
+        <footer> 
+            <p class="footerText">Website by Emma O'Keeffe</p>
+        </footer>
+    </body>
+</html>

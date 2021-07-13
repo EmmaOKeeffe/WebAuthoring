@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- This head area isn't seen by the users and defines the web pages metadata -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- For the hamburger icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Importing the font from google fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <meta name="Author" content="Emma O'Keeffe">
+        <title>Ruth Bader Ginsberg</title>
+        <!-- Importing my javscript function -->
+        <script src="/js/showNavList.js"></script>
+    </head>
+    <body> 
+        <!-- To make the whole hero image clickable I wrapped it in the a tag -->
+        <a href="index.html" aria-label="Hero Image of Ruth Bader Ginsberg">
+            <div class="heroImg">
+                <!-- Including a link to the original image  -->
+                <p id="heroImgRef">Image from <a href="https://www.kanopy.com/product/rbg-1">Kanopy.com</a></p>
+            </div>
+        </a>
+        <!-- Wrapping the nav links in the nav tag -->
+        <nav class="navBar" id="mainNavBar">
+            <a href="index.html">Home</a>
+            <a href="lifeStory.html">Life</a>
+            <a href="career.html">Career</a>
+            <a href="collars.html">Collars</a>
+            <a href="speech.html">Speech</a>
+            <a href="charities.html">Charities</a>
+            <a href="recentNews.html">Recent News</a>
+            <a href="aboutMe.html">About Me</a>
+            <!-- The is for the hamburger icon that only shows when screen size is less than 720px -->
+            <a href="javascript:void(0);" class="icon" onclick="showNavListOnClick()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <main>
+            <!-- This defines the content part of the webpage -->
+            <section class="sectionContent">
+                <article class="articleContent">
+                    <h1 class="articleHeader">Collars</h1>
+                    <!-- The images for the collars Ruth wore using the img element -->
+                    <img src="images/rbg-collars-time-elinor-carucci-1.jpeg" alt="Ruth Bader Ginsberg's Metal Collar" width="220" height="220">
+                    <img src="images/rbg-collars-time-elinor-carucci-10.jpeg" alt="Ruth Bader Ginsberg's White Bead Collar" width="220" height="220">
+                    <img src="images/rbg-collars-time-elinor-carucci-13.jpeg" alt="Ruth Bader Ginsberg's Opera Collar" width="220" height="220">
+                    <img src="images/rbg-collars-time-elinor-carucci-15.jpeg" alt="Ruth Bader Ginsberg's Shell Collar" width="220" height="220">
+                    <img src="images/rbg-collars-time-elinor-carucci-17.jpeg" alt="Ruth Bader Ginsberg's Yellow Bead Collar" width="220" height="220">
+                    <img src="images/rbg-collars-time-elinor-carucci-18.jpeg" alt="Ruth Bader Ginsberg's Yellow Pearl Collar" width="220" height="220">
+                    <img src="images/rbg-collars-time-elinor-carucci-19.jpeg" alt="Ruth Bader Ginsberg's Jewelled Banana Republic Collar" width="220" height="220">
+                    <img src="images/rbg-collars-time-elinor-carucci-2.jpeg" alt="Ruth Bader Ginsberg's Jewel and Pearl Collar" width="220" height="220">
+                    <img src="images/rbg-collars-time-elinor-carucci-3.jpeg" alt="Ruth Bader Ginsberg's Pink Gold Silver Bead Collar" width="220" height="220">
+                    <img src="images/rbg-collars-time-elinor-carucci-4.jpeg" alt="Ruth Bader Ginsberg's Rainbow Pride Collar" width="220" height="220">
+                    <img src="images/rbg-collars-time-elinor-carucci-5.jpeg" alt="Ruth Bader Ginsberg's Lace Jabot Collar" width="220" height="220">
+                    <img src="images/rbg-collars-time-elinor-carucci-6.jpeg" alt="Ruth Bader Ginsberg's Lace Doily Collar" width="220" height="220">
+                    <!-- Referencing where I got the content from -->
+                    <p>Images from <a href="https://time.com/5914834/ruth-bader-ginsburg-collars/" target="_blank">Time.com</a></p>
+                </article>
+            </section>
+        </main>
+        <!-- The footer keeps additional info at the bottom of the page -->
+        <footer> 
+            <p class="footerText">Website by Emma O'Keeffe</p>
+        </footer>
+    </body>
+</html>

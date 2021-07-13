@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- This head area isn't seen by the users and defines the web pages metadata -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- For the hamburger icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Importing the font from google fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <meta name="Author" content="Emma O'Keeffe">
+        <title>Ruth Bader Ginsberg</title>
+        <!-- Importing my javscript function -->
+        <script src="/js/showNavList.js"></script>
+    </head>
+    <body> 
+        <!-- To make the whole hero image clickable I wrapped it in the a tag -->
+        <a href="index.html" aria-label="Hero Image of Ruth Bader Ginsberg">
+            <div class="heroImg">
+                <!-- Including a link to the original image  -->
+                <p id="heroImgRef">Image from <a href="https://www.kanopy.com/product/rbg-1">Kanopy.com</a></p>
+            </div>
+        </a>
+        <!-- Wrapping the nav links in the nav tag -->
+        <nav class="navBar" id="mainNavBar">
+            <a href="index.html">Home</a>
+            <a href="lifeStory.html">Life</a>
+            <a href="career.html">Career</a>
+            <a href="collars.html">Collars</a>
+            <a href="speech.html">Speech</a>
+            <a href="charities.html">Charities</a>
+            <a href="recentNews.html">Recent News</a>
+            <a href="aboutMe.html">About Me</a>
+            <!-- The is for the hamburger icon that only shows when screen size is less than 720px -->
+            <a href="javascript:void(0);" class="icon" onclick="showNavListOnClick()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <main>
+            <!-- This defines the content part of the webpage -->
+            <section class="sectionContent">
+                <article class="articleContent">
+                    <h1 class="articleHeader">Life Story of Ruth Bader Ginsberg</h1>
+                    <p class="factHeader">BORN</p>
+                    <p>March 15, 1933 in Brooklyn, New York</p>
+                    <p class="factHeader">DIED</p>
+                    <p>September 18, 2020 in Washington, D.C.</p>
+                    <p class="factHeader">EDUCATION</p>
+                    <p>Harvard University, James Madison High School, Cornell University, Columbia Law School</p>
+                    <p class="factHeader">OCCUPATION</p>
+                    <p>U.S. Supreme Court justice</p>
+                    <p class="factHeader">MARRIAGE</p>
+                    <p>Married Martin D. Ginsburg in 1954</p>
+                    <p class="factHeader">EARLY LIFE & EDUCATION</p>
+                    <p class="multiLineFacts">
+                        Ginsburg was born Joan Ruth  Bader on March 15, 1933, in Brooklyn, New York. The second daughter of Nathan and Celia Bader, she grew up in a low-income, working-class neighborhood in Brooklyn. Ginsburg's mother, who was a major influence in her life, taught her the value of independence and a good education.
+                        <br><br>
+                        Celia herself did not attend college, but instead worked in a garment factory to help pay for her brother's college education, an act of selflessness that forever impressed Ginsburg. At James Madison High School in Brooklyn, Ginsburg worked diligently and excelled in her studies. Sadly, her mother struggled with cancer throughout Ginsburg's high school years and died the day before Ginsburg's graduation.
+                    </p>
+                    <p class="factHeader">PERSONAL LIFE & HUSBAND</p>
+                    <p class="multiLineFacts">
+                        Ginsburg earned her bachelor's degree in government from Cornell University in 1954, finishing first in her class. She married law student Martin D. Ginsburg that same year. The early years of their marriage were challenging, as their first child, Jane, was born shortly after Martin was drafted into the military in 1954. He served for two years and, after his discharge, the couple returned to Harvard, where Ginsburg also enrolled.
+                        <br><br>
+                        At Harvard, Ginsburg learned to balance life as a mother and her new role as a law student. She also encountered a very male-dominated, hostile environment, with only eight other females in her class of more than 500. The women were chided by the law school's dean for taking the places of qualified males. But Ginsburg pressed on and excelled academically, eventually becoming the first female member of the prestigious Harvard Law Review.
+                    </p>
+                    <p class="factHeader">ARGUING FOR GENDER EQUALITY</p>
+                    <p class="multiLineFacts">
+                        Then, another challenge: Martin contracted testicular cancer in 1956, requiring intensive treatment and rehabilitation. Ginsburg attended to her young daughter and convalescing husband, taking notes for him in classes while she continued her own law studies. Martin recovered, graduated from law school, and accepted a position at a New York law firm.
+                        <br><br>
+                        To join her husband in New York City, Ginsburg transferred to Columbia Law School, where she was elected to the school's law review. She graduated first in her class in 1959. Despite her outstanding academic record, however, Ginsburg continued to encounter gender discrimination while seeking employment after graduation.
+                        <br><br>
+                        After clerking for U.S. District Judge Edmund L. Palmieri (1959–61), Ginsburg taught at Rutgers University Law School (1963–72) and at Columbia (1972–80), where she became the school's first female tenured professor. During the 1970s, she also served as the director of the Women's Rights Project of the American Civil Liberties Union, for which she argued six landmark cases on gender equality before the U.S. Supreme Court.
+                        <br><br>
+                        However, Ginsburg also believed that the law was gender-blind and all groups were entitled to equal rights. One of the five cases she won before the Supreme Court involved a portion of the Social Security Act that favored women over men because it granted certain benefits to widows but not widowers.
+                    </p>
+                    <p class="factHeader">DEATH</p>
+                    <p class="multiLineFacts">
+                        Ginsburg died on September 18, 2020, at her home in Washington, D.C., from complications of metastatic pancreatic cancer.
+                        <br><br>
+                        <q>Our nation has lost a jurist of historic stature,</q> Roberts said in a statement. <q>We at the Supreme Court have lost a cherished colleague. Today we mourn, but with confidence that future generations will remember Ruth Bader Ginsburg as we knew her — a tireless and resolute champion of justice.</q>
+                        <br><br>
+                        Ginsburg laid in state in the Capitol on September 25. She will be the first woman and second Supreme Court Justice to have this honor. Ginsburg also laid in repose at the Supreme Court on September 23 and 24.
+                    </p>
+                    <!-- Referencing where I got the content from -->
+                    <p>Information from <a href="https://www.biography.com/law-figure/ruth-bader-ginsburg" target="_blank">Biography.com</a></p>
+                </article>
+            </section>
+        </main>
+        <!-- The footer keeps additional info at the bottom of the page -->
+        <footer> 
+            <p class="footerText">Website by Emma O'Keeffe</p>
+        </footer>
+    </body>
+</html>

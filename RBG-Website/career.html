@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- This head area isn't seen by the users and defines the web pages metadata -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- For the hamburger icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Importing the font from google fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <meta name="Author" content="Emma O'Keeffe">
+        <title>Ruth Bader Ginsberg</title>
+        <!-- Importing my javscript function -->
+        <script src="/js/showNavList.js"></script>
+    </head>
+    <body> 
+        <!-- To make the whole hero image clickable I wrapped it in the a tag -->
+        <a href="index.html" aria-label="Hero Image of Ruth Bader Ginsberg">
+            <div class="heroImg">
+                <!-- Including a link to the original image  -->
+                <p id="heroImgRef">Image from <a href="https://www.kanopy.com/product/rbg-1">Kanopy.com</a></p>
+            </div>
+        </a>
+        <!-- Wrapping the nav links in the nav tag -->
+        <nav class="navBar" id="mainNavBar">
+            <a href="index.html">Home</a>
+            <a href="lifeStory.html">Life</a>
+            <a href="career.html">Career</a>
+            <a href="collars.html">Collars</a>
+            <a href="speech.html">Speech</a>
+            <a href="charities.html">Charities</a>
+            <a href="recentNews.html">Recent News</a>
+            <a href="aboutMe.html">About Me</a>
+            <!-- The is for the hamburger icon that only shows when screen size is less than 720px -->
+            <a href="javascript:void(0);" class="icon" onclick="showNavListOnClick()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <main>
+            <!-- This defines the content part of the webpage -->
+            <section class="sectionContent">
+                <article class="articleContent">
+                    <!-- Article Content -->
+                    <h1 class="articleHeader">Career</h1>
+                    <p class="factHeader">ON THE SUPREME COURT</p>
+                    <p class="multiLineFacts">
+                        In 1980 President Carter appointed Ginsburg to the U.S. Court of Appeals for the District of Columbia. She served there until she was appointed to the U.S. Supreme Court in 1993 by President Clinton, selected to fill the seat vacated by Justice Byron White. President Clinton wanted a replacement with the intellect and political skills to deal with the more conservative members of the Court.
+                        <br><br>
+                        The Senate Judiciary Committee hearings were unusually friendly, despite frustration expressed by some senators over Ginsburg's evasive answers to hypothetical situations. Several expressed concern over how she could transition from social advocate to Supreme Court Justice. In the end, she was easily confirmed by the Senate, 96–3.
+                        <br><br>
+                        As a judge, Ginsburg favored caution, moderation and restraint. She was considered part of the Supreme Court's moderate-liberal bloc presenting a strong voice in favor of gender equality, the rights of workers and the separation of church and state. In 1996 Ginsburg wrote the Supreme Court's landmark decision in United States v. Virginia, which held that the state-supported Virginia Military Institute could not refuse to admit women. In 1999 she won the American Bar Association's Thurgood Marshall Award for her contributions to gender equality and civil rights.
+                    </p>
+                    <p class="factHeader">HISTORIC RULINGS</p>
+                    <p class="multiLineFacts">
+                        In 2015, Ginsburg sided with the majority in two landmark Supreme Court rulings. On June 25th she was one of the six justices to uphold a critical component of the 2010 Affordable Care Act — often referred to as Obamacare — in King v. Burwell. The decision allows the federal government to continue providing subsidies to Americans who purchase health care through "exchanges," regardless of whether they are state or federally operated. The majority ruling, read by Chief Justice John Roberts, was a massive victory for President Barack Obama and made the Affordable Care Act difficult to undo. Conservative justices Clarence Thomas, Samuel Alito and Antonin Scalia were in dissent, with Scalia presenting a scathing dissenting opinion to the Court.  
+                        <br><br>
+                        On June 26, the Supreme Court handed down its second historic decision in as many days, with a 5–4 majority ruling in Obergefell v. Hodges that made same-sex marriage legal in all 50 states. Ginsburg is considered to have been instrumental in the decision, having shown public support for the idea in past years by officiating same-sex marriages and by challenging arguments against it during the early proceedings of the case. She was joined in the majority by Justices Anthony Kennedy, Stephen Breyer, Sonia Sotomayor and Elena Kagan, with Roberts reading the dissenting opinion this time.
+                    </p>
+                    <!-- Referencing where I got the content from -->
+                    <p>Information from <a href="https://www.biography.com/law-figure/ruth-bader-ginsburg" target="_blank">Biography.com</a></p>
+                </article>
+            </section>
+        </main>
+        <!-- The footer keeps additional info at the bottom of the page -->
+        <footer> 
+            <p class="footerText">Website by Emma O'Keeffe</p>
+        </footer>
+    </body>
+</html>
